@@ -8,6 +8,7 @@ class RecipeTest < ActiveSupport::TestCase
     @recipe = @chef.recipes.build(name: "chicken parm", summary: "this is the best chicken parm ever", 
     description: "heat oil, add onions, add tomato sauce, add chicken, cook for 20 minutes")  
   
+  
   end
   
   
