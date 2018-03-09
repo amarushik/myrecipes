@@ -14,6 +14,7 @@ $navbar-default-color: $light-orange;
     margin-bottom: 10px;
     float: left;
     margin-right: 10px;
+    margin-left: 35px;
     font-size: 2em;
     color : #fff;
     text-transform: uppercase;
@@ -28,7 +29,7 @@ $navbar-default-color: $light-orange;
 }
 
 body {
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .nav_item {
@@ -86,6 +87,7 @@ h2 {
 
 .well {
     background-color: #EDEDED;
+
 }
 
 input, textarea, select, .uneditable-input {
@@ -94,8 +96,20 @@ input, textarea, select, .uneditable-input {
     width: 100%;
     margin-bottom: 15px;
     
+    
 }
 
 input {
-    height: auto "    !simportant";
+    height: auto !important;
+}
+
+span.picture {
+    margin-top: 10px;
+    input {
+        border: 0;
+    }
+}
+
+.show_recipe {
+    margin: 10px 10px 10px 10px;
 }
